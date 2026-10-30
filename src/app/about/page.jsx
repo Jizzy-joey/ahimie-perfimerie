@@ -23,10 +23,9 @@ export default function About() {
 
       {/* Hero */}
       <section className="relative h-[28rem] w-full overflow-hidden bg-[#1C1620]">
-        <img
-          src="/pef4.jpeg"
-          alt="Ahimie Perfumeries"
-          className="absolute inset-0 h-full w-full object-cover opacity-50"
+        <img src="/ahimie-perfimerie/pef4.jpeg"
+        alt="A bottle of perfume"
+        className="absolute inset-0 h-full w-full object-cover opacity-60"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1C1620] via-[#1C1620]/60 to-transparent" />
         <div className="relative mx-auto flex h-full max-w-6xl flex-col justify-center px-6">
@@ -58,9 +57,9 @@ export default function About() {
 
         {/* Image with offset gold frame */}
         <div className="relative">
-          <div className="absolute -bottom-4 -right-4 h-full w-full rounded-3xl border-2 border-[#C58B3A]" />
+          <div className="absolute  h-full w-full rounded-3xl border-4 border-[#C58B3A]" />
           <img
-            src="/pef4.jpeg"
+            src="/ahimie-perfimerie/amara.jpeg"
             alt="Ahimie Perfumeries fragrance"
             className="relative h-96 w-full rounded-3xl object-cover"
           />
